@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/room_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/room_title" />
+
+        <EditText
+
+            android:id="@+id/room_pwd"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/room_password" />
+
+        <ImageView
+            android:id="@+id/room_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/room_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
